@@ -14,7 +14,7 @@ This project is an interactive web application that allows you to visualize and 
 - **Data Cleaning**: Automatic processing of outliers and enrichment with regional data
 - **Interactive Interface**: Dynamic year selection and real-time visualizations
 
-## Some Visualizations
+## Visualizations
 
 ### Real Estate Menu - Real Estate Analysis
 ![Menu Real Estate](Menu%20real%20estate.png)
@@ -42,12 +42,10 @@ This project is an interactive web application that allows you to visualize and 
   - Plotly Express - interactive charts
   - Folium - interactive geographic maps
 
-## 📊 Data Sources
+## Data Sources
 
-The project uses official French property value data provided by the French government:
-- `ValeursFoncieres-2020-S2.csv` - Second semester 2020 data
-- `ValeursFoncieres-2022.csv` - Year 2022 data
-- `regions.geojson` - GeoJSON file of French regions
+- Real state value datasets from https://data.gouv.fr/
+- French regions boundaries dataset from https://france-geojson.gregoiredavid.fr/
 
 ## 📈 Data Processing
 
