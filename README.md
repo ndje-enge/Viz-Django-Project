@@ -17,19 +17,19 @@ This project is an interactive web application that allows you to visualize and 
 ## Some Visualizations
 
 ### Real Estate Menu - Real Estate Analysis
-![Menu Real Estate](ProjetP/Menu%20real%20estate.png)
+![Menu Real Estate](Menu%20real%20estate.png)
 *Interactive menu for selecting real estate analysis options*
 
 ### Real Estate Value Analysis
-![Real Estate Value Analysis](ProjetP/Real%20Estate%20Value%20Analysis.png)
+![Real Estate Value Analysis](Real%20Estate%20Value%20Analysis.png)
 *Scatter plot visualization showing property values by month and property type*
 
 ### Regional Menu - Geographic Analysis
-![Menu Regional](ProjetP/Menu%20regional.png)
+![Menu Regional](Menu%20regional.png)
 *Interface for selecting regional map visualizations*
 
 ### Regional Property Value Map
-![Regional Property Value Map](ProjetP/Regional%20Property%20Value%20Map.png)
+![Regional Property Value Map](Regional%20Property%20Value%20Map.png)
 *Choropleth map displaying average property values across French regions*
 
 ## Technologies Used
