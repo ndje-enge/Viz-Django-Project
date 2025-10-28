@@ -14,7 +14,7 @@ This project is an interactive web application that allows you to visualize and 
 - **Data Cleaning**: Automatic processing of outliers and enrichment with regional data
 - **Interactive Interface**: Dynamic year selection and real-time visualizations
 
-## Visualizations
+## Some Visualizations
 
 ### Real Estate Menu - Real Estate Analysis
 ![Menu Real Estate](ProjetP/Menu%20real%20estate.png)
