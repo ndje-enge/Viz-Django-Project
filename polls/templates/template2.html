@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"> 
+        <title>Regional Maps - Real Estate Analysis</title>
+    </head>
+    <body>
+        <h1>Regional Property Value Maps</h1>
+        <p>This is for visualizing the maps by region</p> 
+        <form action="apply_Mode" > 
+        <label for="model-select">Choose a year:</label>
+            <select name="model" id="model-select" onchange='if(this.value != 0) { this.form.submit(); }'>
+                <option value="0">-- Please choose a year --</option> 
+                <option value="carte2020">2020</option> 
+                <option value="carte2022">2022</option>
+            </select> 
+        </form>
+    
+
+        {{plot_html|safe}}
+    </body> 
+</html>

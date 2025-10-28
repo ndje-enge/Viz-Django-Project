@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"> 
+        <title>Year Comparison - Real Estate Analysis</title>
+    </head>
+    <body>
+        <h1>Real Estate Value Analysis by Year</h1>
+        <p>This page is for visualizing the comparison between 2020 and 2022</p> 
+        <form action="apply_Model" > 
+        <label for="model-select">Choose a year:</label>
+            <select name="model" id="model-select" onchange='if(this.value != 0) { this.form.submit(); }'>
+                <option value="0">-- Please choose a year --</option> 
+                <option value="annee2020">2020</option> 
+                <option value="annee2022">2022</option>
+            </select> 
+        </form>
+    
+
+        {{plot_html|safe}}
+    </body> 
+</html>

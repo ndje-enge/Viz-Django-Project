@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"> 
+        <title>Home - Real Estate Analysis</title>
+    </head>
+    <body>
+        <h1>Navigation Menu</h1>
+        <p>Choose the page to view:</p> 
+        
+        <form action="" method="get"> 
+            <label for="page-select">Select a page:</label>
+            <select name="page" id="page-select" onchange='if(this.value != 0) { window.location.href = this.value; }'>
+                <option value="0">-- Please choose a page --</option> 
+                <option value="page1">Page 1 - Comparison 2020 vs 2022</option> 
+                <option value="page2">Page 2 - Regional Maps</option>
+            </select> 
+        </form>
+    </body> 
+</html>
