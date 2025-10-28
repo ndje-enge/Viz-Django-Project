@@ -6,7 +6,7 @@ Django web application for analyzing and visualizing real estate transaction dat
 
 This project is an interactive web application that allows you to visualize and analyze property values of real estate transactions in France. The application offers interactive graphical visualizations including scatter plots and choropleth maps showing average prices by region.
 
-## ✨ Features
+## Features
 
 - **Property Value Visualization**: Scatter plots showing the relationship between property values, transaction months, and property types
 - **Temporal Comparison**: Ability to compare data between 2020 and 2022
@@ -47,7 +47,7 @@ This project is an interactive web application that allows you to visualize and 
 - Real state value datasets from https://data.gouv.fr/
 - French regions boundaries dataset from https://france-geojson.gregoiredavid.fr/
 
-## 📈 Data Processing
+## Data Processing
 
 The application performs several cleaning and enrichment operations:
 
